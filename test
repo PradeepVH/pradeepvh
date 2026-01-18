@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradeep– Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #4a90e2; color: white; text-align: center; padding: 2rem; }
+    nav a { margin: 0 1rem; color: white; text-decoration: none; font-weight: bold; }
+    main { padding: 2rem; }
+    section { margin-bottom: 2rem; }
+    .projects { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .project { border: 1px solid #ddd; padding: 1rem; width: calc(33% - 2rem); box-sizing: border-box; }
+    footer { text-align: center; padding: 1rem; background: #f4f4f4; }
+    @media (max-width: 768px) { .project { width: 100%; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Web Developer | Designer | Creator</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m **Your Name**, a passionate developer and designer. I build clean, functional, and beautiful websites and enjoy learning new web technologies.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A short description of this project.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>A short description of this project.</p>
+      </div>
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>A short description of this project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📫 Email: yourname@example.com</p>
+    <p>💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
